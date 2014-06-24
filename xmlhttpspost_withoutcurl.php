@@ -31,7 +31,7 @@ $xmldocument = join("\r\n", $xml)."\r\n\r\n";
 
 $params = array('http' => array(
               'method' => 'POST',
-              'header'=> "Content-type: application/x-www-form-urlencoded\r\n" . "Content-Length: " . strlen($xmldocument) . "\r\n",
+              'header'=> "Content-type: application/xml\r\n" . "Content-Length: " . strlen($xmldocument) . "\r\n",
               'content' => $xmldocument
             ));
             
