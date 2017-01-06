@@ -6,7 +6,7 @@
 //*******************************************************
 
 // Please refer to https://wiki.pswin.com for the different gateway endpoint urls
-$url = "https://gw2-fro.pswin.com:8443";
+$url = "https://xml.pswin.com";
 
 // Writing XML Document
 $xml[] = "<?xml version=\"1.0\"?>";
