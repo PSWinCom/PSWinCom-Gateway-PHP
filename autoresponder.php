@@ -32,7 +32,7 @@ $xmldocument = join("\r\n", $xml)."\r\n\r\n";
 
 // Address of the PSWinCom SMS Gateway instance you want to use.
 // More info about different endpoints is found at wiki.pswin.com
-$host = "sms.pswin.com";
+$host = "socket.pswin.com";
 $port = 1111;
 
 // Opens a connection to the gateway
